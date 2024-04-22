@@ -27,6 +27,8 @@ const obj3 = {4 : "e" , 5 : "f"}
 
 // const obj4 = Object.assign({}, obj1 , obj2 ,obj3)
 const obj4 = {...obj1 , ...obj2 , ...obj3}
+
+console.log("hii ->" , Object.keys(obj4))
 // console.log(obj4);
 
 const course = {
